@@ -30,7 +30,9 @@ public class CafeController {
 				new Cafe("Café Catuaí"),
 				new Cafe("Café Robusta"),
 				new Cafe("Café Geisha"),
-				new Cafe("Café Kona")
+				new Cafe("Café Kona"),
+				new Cafe("Café Pelé"),
+				new Cafe("Cafe da Serra")
 				));
 	}
 	
