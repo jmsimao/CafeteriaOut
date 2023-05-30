@@ -1,4 +1,4 @@
-package br.com.josemarcelo.Cafeteria.Model;
+package br.com.josemarcelo.CafeteriaOut.Model;
 
 import java.util.UUID;
 
@@ -21,9 +21,11 @@ public class Cafe {
 	public String getNome() {
 		return nome;
 	}
+	
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	
 	public String getId() {
 		return Id;
 	}
