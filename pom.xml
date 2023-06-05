@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.josemarcelo</groupId>
-	<artifactId>Cafeteria</artifactId>
+	<artifactId>CafeteriaOut</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Cafeteria</name>
-	<description>Demo project for Spring Boot</description>
+	<name>CafeteriaOut</name>
+	<description>Projeto de CafeteriaOut para o Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -32,6 +32,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<!-- Webserver Tomcat --> 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
